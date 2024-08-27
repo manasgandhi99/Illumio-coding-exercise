@@ -30,7 +30,7 @@ This Python script processes flow log data and maps tags using a lookup table. I
 
 3. **Run the Script**:
    ```bash
-   python3 your_script.py
+   python3 solution.py
 
 ## Tests Conducted
 
