@@ -12,6 +12,8 @@ This Python script processes flow log data and maps tags using a lookup table. I
 - Tags can map to more than one port/protocol combination.
 - Matches should be case-insensitive.
 - The protocol numbers used in the flow logs are translated into protocol names based on the official list maintained by the Internet Assigned Numbers Authority (IANA) and stored in the 'PROTOCOL_MAP'. The full list of protocol numbers and their corresponding names can be found here: [IANA Protocol Numbers](https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml).
+- Tag count and port/protocol combination count are stored in `output.txt`.
+
 
 ## Requirements
 
